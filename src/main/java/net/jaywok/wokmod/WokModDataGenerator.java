@@ -1,0 +1,11 @@
+package net.jaywok.wokmod;
+
+import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+
+public class WokModDataGenerator implements DataGeneratorEntrypoint {
+	@Override
+	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
+
+	}
+}
