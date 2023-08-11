@@ -1,3 +1,6 @@
 {
-  "item.wokmod.stones": "Stones"
+  "item.wokmod.stones": "Stones",
+  "item.wokmod.stone_rod": "Stone Rod",
+
+  "itemgroup.wokmod": "WokMod"
 }

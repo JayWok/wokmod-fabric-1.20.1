@@ -13,10 +13,12 @@ import net.minecraft.util.Identifier;
 public class ModItems
 {
     public static final Item STONES = registerItem("stones", new Item(new FabricItemSettings()));
+    public static final Item STONE_ROD = registerItem("stone_rod", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries)
     {
         entries.add(STONES);
+        entries.add(STONE_ROD);
     }
 
     private static Item registerItem(String name, Item item)
