@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "wokmod:stones"
+    }
+  },
+  "result": {
+    "item": "wokmod:stone_rod"
+  }
+}
