@@ -2,5 +2,9 @@
   "item.wokmod.stones": "Stones",
   "item.wokmod.stone_rod": "Stone Rod",
 
+  "block.wokmod.compact_cobblestone_1x": "Compact Cobblestone (1x)",
+  "block.wokmod.compact_cobblestone_2x": "Compact Cobblestone (2x)",
+  "block.wokmod.compact_cobblestone_3x": "Compact Cobblestone (3x)",
+
   "itemgroup.wokmod": "WokMod"
 }

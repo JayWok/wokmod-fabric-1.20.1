@@ -2,6 +2,7 @@ package net.jaywok.wokmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jaywok.wokmod.block.ModBlocks;
 import net.jaywok.wokmod.item.ModItemGroups;
 import net.jaywok.wokmod.item.ModItems;
 import org.slf4j.Logger;
@@ -18,6 +19,8 @@ public class WokMod implements ModInitializer
 		LOGGER.info("WokMod | Loaded " + MOD_ID);
 
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
