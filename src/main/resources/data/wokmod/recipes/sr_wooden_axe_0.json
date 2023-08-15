@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "#X",
+    "# "
+  ],
+  "key": {
+    "#": {
+      "item": "wokmod:stone_rod"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "wokmod:sr_wooden_axe"
+  }
+}
