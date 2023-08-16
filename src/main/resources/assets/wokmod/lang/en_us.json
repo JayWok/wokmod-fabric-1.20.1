@@ -33,6 +33,11 @@
   "item.wokmod.sr_diamond_hoe": "Stone Rod Diamond Hoe",
   "item.wokmod.sr_netherite_hoe": "Stone Rod Netherite Hoe",
 
+  "item.wokmod.stone_chestplate": "Stone Chestplate",
+  "item.wokmod.stone_helmet": "Stone Helmet",
+  "item.wokmod.stone_boots": "Stone Boots",
+  "item.wokmod.stone_leggings": "Stone Leggings",
+
   "block.wokmod.compact_cobblestone_1x": "Compact Cobblestone (1x)",
   "block.wokmod.compact_cobblestone_2x": "Compact Cobblestone (2x)",
   "block.wokmod.compact_cobblestone_3x": "Compact Cobblestone (3x)",

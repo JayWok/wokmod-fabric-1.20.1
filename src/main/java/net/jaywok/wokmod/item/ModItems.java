@@ -143,6 +143,24 @@ public class ModItems
             .maxCount(1)
             .maxDamage(ToolMaterials.NETHERITE.getDurability()*2)));
 
+    // Armor
+    public static final Item STONE_CHESTPLATE = registerItem("stone_chestplate", new ArmorItem(
+            ModArmorMaterial.STONE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()
+            .maxCount(1)
+            .maxDamage(ToolMaterials.WOOD.getDurability())));
+    public static final Item STONE_HELMET = registerItem("stone_helmet", new ArmorItem(
+            ModArmorMaterial.STONE, ArmorItem.Type.HELMET, new FabricItemSettings()
+            .maxCount(1)
+            .maxDamage(ToolMaterials.WOOD.getDurability())));
+    public static final Item STONE_BOOTS = registerItem("stone_boots", new ArmorItem(
+            ModArmorMaterial.STONE, ArmorItem.Type.BOOTS, new FabricItemSettings()
+            .maxCount(1)
+            .maxDamage(ToolMaterials.WOOD.getDurability())));
+    public static final Item STONE_LEGGINGS = registerItem("stone_leggings", new ArmorItem(
+            ModArmorMaterial.STONE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()
+            .maxCount(1)
+            .maxDamage(ToolMaterials.WOOD.getDurability())));
+
     public static Item registerItem(String name, Item item)
     {
         return Registry.register(Registries.ITEM, new Identifier(WokMod.MOD_ID, name), item);

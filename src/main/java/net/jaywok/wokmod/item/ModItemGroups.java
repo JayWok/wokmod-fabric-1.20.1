@@ -50,6 +50,11 @@ public class ModItemGroups
                         entries.add(ModItems.SR_IRON_HOE);
                         entries.add(ModItems.SR_DIAMOND_HOE);
                         entries.add(ModItems.SR_NETHERITE_HOE);
+                        // Armor
+                        entries.add(ModItems.STONE_CHESTPLATE);
+                        entries.add(ModItems.STONE_HELMET);
+                        entries.add(ModItems.STONE_BOOTS);
+                        entries.add(ModItems.STONE_LEGGINGS);
                         // Blocks
                         entries.add(ModBlocks.COMPACT_COBBLESTONE_1X);
                         entries.add(ModBlocks.COMPACT_COBBLESTONE_2X);
